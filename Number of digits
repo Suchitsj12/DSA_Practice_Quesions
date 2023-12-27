@@ -1,0 +1,15 @@
+https://www.codingninjas.com/studio/problems/number-of-digits_9173?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse&leftPanelTabValue=PROBLEM
+
+Number of digits:-
+
+  //code
+  int countDigits(int n){
+	// Write your code here.	
+	int count=0;
+	int temp=n;
+	do{
+		temp=temp/10;
+		count++;
+	}while(temp>0);
+	return count;
+  }
